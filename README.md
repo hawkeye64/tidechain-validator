@@ -490,8 +490,9 @@ On the validator node system, you will want to back up the following folder:
 
 ## More Resources
 
-[Medium | Running a Validator on the Tidefi Lagoon Testnet](https://medium.com/tidefi/running-a-validator-on-the-tidefi-lagoon-testnet-f2928731f32c)
-[GitHub Sources](https://github.com/tidelabs/tidechain)
-[Tidechain API](https://tidelabs.github.io/tidechain/tidechain_service/index.html)
-[Telemetry](https://telemetry.tidefi.io/#/0xc87195c66912e4280aa2aa8498e5bd3fae699f364d3a156fd716a79f27f97c7f)
-[Web Explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.tidefi.io#/explorer)
+- [Tidechain Explorer](https://github.com/tidelabs/explorer/releases)
+- [Medium | Running a Validator on the Tidefi Lagoon Testnet](https://medium.com/tidefi/running-a-validator-on-the-tidefi-lagoon-testnet-f2928731f32c)
+- [GitHub Sources](https://github.com/tidelabs/tidechain)
+- [Tidechain API](https://tidelabs.github.io/tidechain/tidechain_service/index.html)
+- [Telemetry](https://telemetry.tidefi.io/#/0xc87195c66912e4280aa2aa8498e5bd3fae699f364d3a156fd716a79f27f97c7f)
+- [Web Explorer](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Frpc.tidefi.io#/explorer)

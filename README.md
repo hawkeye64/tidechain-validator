@@ -452,6 +452,17 @@ sudo systemctl daemon-reload
 sudo service tidechain restart
 ```
 
+or, a more automated way where you don't have to worry about the version:
+
+```
+curl -s https://api.github.com/repos/tidelabs/tidechain/releases/latest \
+| grep "browser_download_url.*deb" \
+| cut -d : -f 2,3 \
+| tr -d \" \
+| wget -qi - \
+| sha256sum -c tidechain.deb.sha256 && sudo dpkg -i tidechain.deb && sudo systemctl daemon-reload && sudo systemctl restart tidechain 
+```
+
 To verify it is running:
 
 ```
